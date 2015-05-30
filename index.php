@@ -7,12 +7,7 @@
  */
 
 $person = new Person("hoge", 18);
-
 echo $person->getName();
-if ($person->getName() != null) {
-
-}
-
 if ($person->isYoung()) {
 
 }
