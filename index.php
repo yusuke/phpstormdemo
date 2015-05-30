@@ -7,4 +7,3 @@
  */
 
 $person = new Person("yusuke", 18);
-asfsaffsd
