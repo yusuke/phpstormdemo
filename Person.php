@@ -4,10 +4,11 @@
  * Created by PhpStorm.
  * User: yusuke
  * Date: 5/30/15
- * Time: 15:39
+ * Time: 17:21
  */
 class Person
 {
+
     protected $name;
     protected $age;
 
@@ -40,8 +41,7 @@ class Person
 
     public function isYoung()
     {
-        return $this->getAge() < 20;
+        return $this->age < 20;
     }
-
 
 }

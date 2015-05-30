@@ -3,15 +3,12 @@
  * Created by PhpStorm.
  * User: yusuke
  * Date: 5/30/15
- * Time: 15:40
+ * Time: 17:22
  */
-
 $person = new Person("yusuke", 18);
 
-if ($person->isYoung()) {
+echo $person->isYoung();
 
-}
-
-if ($person->getName() != null) {
+if (!$person->isYoung()) {
 
 }
