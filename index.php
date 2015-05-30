@@ -6,3 +6,7 @@
  * Time: 11:54
  */
 $person = new Person("yusuke", 18);
+
+echo $person->getName();
+
+$persons = [];
