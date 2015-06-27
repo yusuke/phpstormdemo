@@ -9,7 +9,7 @@
  */
 return array(
     // Set YII_DEBUG and YII_TRACE_LEVEL flags
-//    'yiiDebug' => true,
+    'yiiDebug' => true,
     'yiiTraceLevel' => 3,
     // This is the specific Web application configuration for this mode.
     // Supplied config elements will be merged into the main config array.
@@ -60,5 +60,5 @@ return array(
     // Use value 'inherit' to copy from generated configWeb.
     'configConsole' => array(),
 
-    'yiiDebug' => false,
+//    'yiiDebug' => false,
 );
