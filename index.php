@@ -1,4 +1,5 @@
 <?php
+phpinfo();
 ?>
 
 <style type="text/css">

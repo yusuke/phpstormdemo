@@ -4,7 +4,7 @@
  * Created by PhpStorm.
  * User: yusuke
  * Date: 6/27/15
- * Time: 15:33
+ * Time: 19:32
  */
 class PersonImpl implements Person
 {
@@ -39,8 +39,9 @@ class PersonImpl implements Person
     }
 
 
-    function isYoung()
+    public function isYoung()
     {
         return $this->age < 20;
     }
+
 }
